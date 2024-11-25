@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(50, 50, 70);
+  color: rgb(246, 246, 246);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+form {
+  box-shadow: 0px 0px 15px rgb(187, 187, 214, 0.5);
+  border-radius: 25px;
+  background-color: rgb(50, 50, 70);
+  border-style: solid;
+  border-color: rgb(187, 187, 214);
+  text-align: center;
+  padding: 45px;
+  width: 450px;
+}
+
+.row > p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+input {
+  font-size: 16px;
+  padding: 15px;
+  margin: 10px 5px;
+  border: none;
+}
+
+#ip {
+  background-color: rgb(35, 35, 48);
+  color: rgb(231, 231, 255);
+  font-weight: 700;
+  outline: none;
+}
+
+#checkIP {
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+#checkIP:hover {
+  opacity: 0.8;
+}
+
+#checkIP:active {
+  opacity: 0.5;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}

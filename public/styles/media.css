@@ -1,0 +1,190 @@
+/* If the min-width is 550px and the max-width is 630px: */
+@media (min-width: 550px) and (max-width: 630px) {
+  form {
+    width: 375px;
+    padding: 43px;
+  }
+
+  h1 {
+    font-size: 1.60rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  input {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+
+/* If the min-width is 465px and the max-width is 550px: */
+@media (min-width: 465px) and (max-width: 550px) {
+  form {
+    width: 325px;
+    padding: 41px;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  input {
+    padding: 9px;
+    font-size: 13px;
+  }
+}
+
+
+/* If the min-width is 380px and the max-width is 465px: */
+@media (min-width: 380px) and (max-width: 465px) {
+  form {
+    width: 250px;
+    padding: 39px;
+    border-radius: 22px;
+  }
+
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-size: 11px;
+  }
+
+  input {
+    padding: 6px;
+    font-size: 11px;
+    margin: 10px 3px;
+  }
+}
+
+
+/* If the min-width is 340px and the max-width is 380px: */
+@media (min-width: 340px) and (max-width: 380px) {
+  form {
+    width: 200px;
+    padding: 35px;
+    border-radius: 19px;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 0.8rem;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  input {
+    padding: 6px;
+    font-size: 10px;
+    margin: 9px 3px;
+  }
+}
+
+
+/* If the min-width is 270px and the max-width is 340px: */
+@media (min-width: 270px) and (max-width: 340px) {
+  form {
+    width: 170px;
+    padding: 30px;
+    border-radius: 17px;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 0.8rem;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  input {
+    padding: 6px;
+    font-size: 10px;
+    margin: 9px 3px;
+  }
+}
+
+
+/* If the min-width is 230px and the max-width is 270px: */
+@media (min-width: 230px) and (max-width: 270px) {
+  form {
+    width: 140px;
+    padding: 30px;
+    border-radius: 17px;
+  }
+
+  h1 {
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    font-size: 0.7rem;
+  }
+
+  p {
+    font-size: 8px;
+  }
+
+  input {
+    padding: 6px;
+    font-size: 8px;
+    margin: 9px 3px;
+  }
+}
+
+
+/* If the max-width is 230px: */
+@media (max-width: 230px) {
+  form {
+    width: 120px;
+    padding: 25px;
+    border-radius: 17px;
+  }
+
+  h1 {
+    font-size: 0.8rem;
+  }
+
+  h2 {
+    font-size: 0.7rem;
+  }
+
+  p {
+    font-size: 8px;
+  }
+
+  input {
+    padding: 6px;
+    font-size: 8px;
+    margin: 9px 3px;
+  }
+}
